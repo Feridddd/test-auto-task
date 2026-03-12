@@ -34,12 +34,6 @@ public class RegistrationResultModal extends BasePage {
         return this;
     }
 
-    @Step("Verify result row '{label}' contains value '{expectedValue}'")
-    public RegistrationResultModal shouldContainValue(String label, String expectedValue) {
-        getValueCell(label).shouldHave(Condition.text(expectedValue));
-        return this;
-    }
-
     private SelenideElement getValueCell(String label) {
         return $x("//td[text()='" + label + "']/following-sibling::td");
     }

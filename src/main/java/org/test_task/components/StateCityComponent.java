@@ -1,16 +1,11 @@
 package org.test_task.components;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-
-import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.$x;
 
 public class StateCityComponent {
-
-    private static final Duration TIMEOUT = Duration.ofSeconds(5);
 
     private final DropdownComponent dropdown = new DropdownComponent();
 

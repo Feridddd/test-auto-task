@@ -6,8 +6,8 @@ import io.qameta.allure.Step;
 
 import java.time.Duration;
 
-import static com.codeborne.selenide.Selenide.executeJavaScript;
 import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.executeJavaScript;
 
 public class DropdownComponent {
 
