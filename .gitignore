@@ -1,0 +1,42 @@
+# Maven / build
+target/
+build/
+
+# Allure
+allure-results/
+allure-report/
+.allure/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Selenide / screenshots / reports
+selenide-reports/
+test-output/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# Optional: local env files
+.env
